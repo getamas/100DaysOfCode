@@ -1,5 +1,17 @@
-$body-color: blue;
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
 
-body {
-  color: $body-color;
-}
+// Base
+@import './base/setup';
+@import './base/variables';
+@import './base/typography';
+@import './base/global';
+
+// Components
+@import './components/project';
+
+// Layouts
+
+// Pages
+
+// Utils

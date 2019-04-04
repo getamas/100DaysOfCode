@@ -3,19 +3,19 @@
 ### Installation
 
 ```
-npm install
+yarn install
 ```
 
 ### Start Dev Server
 
 ```
-npm start
+yarn dev
 ```
 
 ### Build Prod Version
 
 ```
-npm run build
+yarn run build
 ```
 
 ### Day 0: February 30, 2016 (Example 1)

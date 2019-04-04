@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "A light foundation for your next frontend project based on webpack.",
   "scripts": {
-    "build": "webpack --config webpack/webpack.config.prod.js  --colors",
-    "start": "webpack-dev-server --open --config webpack/webpack.config.dev.js"
+    "dev": "webpack-dev-server --open --config webpack/webpack.config.dev.js",
+    "build": "webpack --config webpack/webpack.config.prod.js  --colors"
   },
   "repository": {
     "type": "git",
@@ -46,6 +46,11 @@
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.4.0"
+    "@babel/polyfill": "^7.4.0",
+    "babel-plugin-prismjs": "^1.0.2",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.15.0",
+    "prismjs": "^1.16.0"
   }
 }
